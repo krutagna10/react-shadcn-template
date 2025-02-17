@@ -1,9 +1,13 @@
+import { ThemeProvider } from "@/components/theme-provider"
+
 function App() {
   return (
-    <div>
-      <h1>React Typescript Practice</h1>
-    </div>
-  );
+    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+      <main>
+        <h1>React ShadCN Template</h1>
+      </main>
+    </ThemeProvider>
+  )
 }
 
-export default App;
+export default App
