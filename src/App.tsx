@@ -1,5 +1,5 @@
 import { ThemeProvider } from "@/context/theme-provider";
-import { ModeToggle } from "@/mode-toggle";
+import { ModeToggle } from "@/components/mode-toggle";
 
 function App() {
   return (
